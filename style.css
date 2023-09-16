@@ -1,0 +1,184 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding-top: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+.header, .footer, .container {
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+    padding-top: 80px;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: antiquewhite;
+    margin-bottom: 3px;
+    
+}
+
+.title-two {
+    margin: 30px 0;
+    font-weight: 900px;
+    font-size: 30px;
+    
+}
+
+#textone {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.prueba {
+    align-items: center;
+    font-size: 12pxs;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.torso {
+    display: flex;
+   flex-direction: column;
+   flex: 1;
+   align-items: center;
+   padding-bottom: 60px;
+}
+
+#sec4 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote, .quote-dude {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 900px;
+    padding: 60px 500px 60px 500px;
+}
+
+.quote-dude {
+    font-weight: 800px;
+}
+
+.bluespace {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 500px;
+}
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    flex: 1;
+}
+
+#action {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#secondLine {
+    color: whitesmoke;
+}
+
+#sign {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.chance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    border: transparent;
+    margin: 10px;
+    font-size: 20pxs;
+    align-self: flex-start;
+    
+}
